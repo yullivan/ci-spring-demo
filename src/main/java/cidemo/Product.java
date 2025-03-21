@@ -15,6 +15,10 @@ public class Product {
         stock--;
     }
 
+    public void increaseStock() {
+        stock--;
+    }
+
     public int getStock() {
         return stock;
     }
