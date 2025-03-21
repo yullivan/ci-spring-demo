@@ -14,4 +14,13 @@ public class ProductTest {
 
         assertThat(product.getStock()).isEqualTo(4);
     }
+
+    @Test
+    void increaseStockTest() {
+        Product product = new Product(5);
+
+        product.increaseStock();
+
+        assertThat(product.getStock()).isEqualTo(6);
+    }
 }
